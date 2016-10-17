@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Boggle.cpp" />
+    <ClCompile Include="BoggleInterface.cpp" />
+    <ClCompile Include="Core\Utils.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\TestDictionary.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="BoggleSolver.cpp" />
+    <ClCompile Include="Tests\TestThreadPool.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\StringHash.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\spooky.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Histogram.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\StreamString.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\ProgressBar.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="BoggleDictionary.cpp" />
+    <ClCompile Include="Tests\TestBoggleSolver.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Dictionary\CharTreeDictionary.cpp">
+      <Filter>Dictionary</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BoggleInterface.h" />
+    <ClInclude Include="Core\Types.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Utils.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\TestDictonary.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="BoggleSolver.h" />
+    <ClInclude Include="Tests\TestThreadPool.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\StringHash.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\StreamString.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\spooky.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Histogram.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\ProgressBar.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="BoogleDictionary.h" />
+    <ClInclude Include="Tests\TestBoggleSolver.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Dictionary\CharTreeDictionary.h">
+      <Filter>Dictionary</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Dictionary">
+      <UniqueIdentifier>{6fe95e72-e2af-4c24-af02-31efae5756b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{8c325b11-80dc-499f-8aa1-3865e3d4f1f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{6dd0fb5a-7d5f-4c8b-adeb-822b49734a90}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Todo.list" />
+  </ItemGroup>
+</Project>

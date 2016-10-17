@@ -1,0 +1,6 @@
+- Test cCItDictionary with u16/u32/u64 instead of char
+- ThreadPushPool32bit has unnecessry data spawned across the links - redesign done
+- Test ThreadPushPool32bit collision compare with grow size and start size (bias)
+- Test with a new character tree dictionary where every leafs contains the word ID (no collision at the cost of memory)
+- Could prime factorization help this case?
+- transform cCharacterMap to cCharacterTree
